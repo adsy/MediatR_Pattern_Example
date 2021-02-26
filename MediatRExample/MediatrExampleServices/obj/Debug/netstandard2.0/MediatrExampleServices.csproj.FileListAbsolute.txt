@@ -1,0 +1,9 @@
+C:\codingTutes\MediatrExample\MediatRExample\MediatrExampleServices\bin\Debug\netstandard2.0\MediatrExampleServices.deps.json
+C:\codingTutes\MediatrExample\MediatRExample\MediatrExampleServices\bin\Debug\netstandard2.0\MediatrExampleServices.dll
+C:\codingTutes\MediatrExample\MediatRExample\MediatrExampleServices\bin\Debug\netstandard2.0\MediatrExampleServices.pdb
+C:\codingTutes\MediatrExample\MediatRExample\MediatrExampleServices\obj\Debug\netstandard2.0\MediatrExampleServices.csprojAssemblyReference.cache
+C:\codingTutes\MediatrExample\MediatRExample\MediatrExampleServices\obj\Debug\netstandard2.0\MediatrExampleServices.AssemblyInfoInputs.cache
+C:\codingTutes\MediatrExample\MediatRExample\MediatrExampleServices\obj\Debug\netstandard2.0\MediatrExampleServices.AssemblyInfo.cs
+C:\codingTutes\MediatrExample\MediatRExample\MediatrExampleServices\obj\Debug\netstandard2.0\MediatrExampleServices.csproj.CoreCompileInputs.cache
+C:\codingTutes\MediatrExample\MediatRExample\MediatrExampleServices\obj\Debug\netstandard2.0\MediatrExampleServices.dll
+C:\codingTutes\MediatrExample\MediatRExample\MediatrExampleServices\obj\Debug\netstandard2.0\MediatrExampleServices.pdb
