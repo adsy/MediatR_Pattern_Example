@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\codingTutes\\MediatrExample\\MediatRExample\\MediatrExampleServices\\MediatrExampleServices.csproj",
         "projectName": "MediatrExampleServices",
         "projectPath": "C:\\codingTutes\\MediatrExample\\MediatRExample\\MediatrExampleServices\\MediatrExampleServices.csproj",
-        "packagesPath": "C:\\Users\\s1-adbrit\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\adbrit\\.nuget\\packages\\",
         "outputPath": "C:\\codingTutes\\MediatrExample\\MediatRExample\\MediatrExampleServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\s1-adbrit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adbrit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

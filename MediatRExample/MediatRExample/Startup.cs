@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MediatR;
+using MediatRExample.Infrastructure;
 using MediatrExampleServices.Cars.Queries;
 
 namespace MediatRExample
@@ -28,6 +29,10 @@ namespace MediatRExample
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddHttpContextAccessor();
+
+            services.AddScoped(typeof(IPipelineBehavior<,>), typeof(UserIdPipe<,>));
+
             services.AddMediatR(typeof(GetAllCarsQuery).Assembly);
 
             services.AddControllers();

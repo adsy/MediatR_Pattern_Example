@@ -9,7 +9,7 @@ using MediatrExampleServices.Models;
 namespace MediatrExampleServices.Cars.Queries
 {
     // IRequest<T> -> T is the object type you want to return
-    public class GetAllCarsQuery : IRequest<IEnumerable<Car>>
+    public class GetAllCarsQuery : BaseRequest, IRequest<IEnumerable<Car>>
     {
 
     }
@@ -18,7 +18,7 @@ namespace MediatrExampleServices.Cars.Queries
     {
         // do dependency injection here if needed
         public GetAllCarsQueryHandler()
-        {
+        { 
                 
         }
 
@@ -26,7 +26,7 @@ namespace MediatrExampleServices.Cars.Queries
         {
             return new[]
             {
-                new Car{name = "car1"},
+                new Car{name = $"car1 {request.UserId}"},
                 new Car{name = "car2"}
             };
         }
