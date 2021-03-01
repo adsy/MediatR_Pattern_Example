@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MediatR;
+using MediatrExampleServices;
+using MediatrExampleServices.Cars.Commands;
 using MediatrExampleServices.Cars.Queries;
 using MediatrExampleServices.Models;
 
@@ -26,6 +28,12 @@ namespace MediatRExample.Controllers
         {
             return _mediator.Send(new GetAllCarsQuery());
         }
-    
-    }
+
+        [HttpPost]
+        public Task<Response<Car>> Index([FromBody] CreateCarCommand command)
+        {
+            return _mediator.Send(command);
+        }
+
+}
 }
